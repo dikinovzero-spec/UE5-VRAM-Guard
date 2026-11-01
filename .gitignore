@@ -1,0 +1,19 @@
+# MSVC build outputs
+*.obj
+*.lib
+*.exp
+*.pdb
+*.ilk
+
+# Runtime logs
+*.log
+
+# Local/generated binaries outside the release package
+src/dxgi.dll
+src/dxgi_optimizer.ini
+
+# IDE and local metadata
+.vs/
+.vscode/
+*.user
+*.suo
