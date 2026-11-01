@@ -1,0 +1,12 @@
+LIBRARY "dxgi"
+EXPORTS
+    CreateDXGIFactory                   @1
+    CreateDXGIFactory1                  @2
+    CreateDXGIFactory2                  @3
+    DXGIDeclareAdapterRemovalSupport    @4
+    DXGIGetDebugInterface1              @5
+    ApplyCompatResolutionQuirking       @6
+    CompatString                        @7
+    CompatValue                         @8
+    DXGIDumpJournal                     @9
+    DXGIReportAdapterConfiguration      @10
